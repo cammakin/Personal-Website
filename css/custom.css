@@ -1,0 +1,66 @@
+/*All pages*/
+#navbartext{
+	color: white;
+	font-weight: 30;
+	padding-right: 2rem;
+	transition: font-size 1s;	
+}
+
+#navbartext:hover {
+  	font-size: 120%;
+}
+
+.header_picture{
+	background-size: cover; 
+	background-position: center center;
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode: darken;
+}
+
+div.jumbotron{
+	background-color: #D3D3D3;
+	margin-top: 1rem;
+}
+
+/*index.html*/
+#fullname{
+	color: white;
+	padding-top: 4rem;
+}
+#maininfo{
+	color: white;
+	font-weight: 50;
+	font-size: 3.0rem;
+	line-height: 1.75;
+}
+#space{
+	background-image: url('../images/space.jpg')
+}
+
+#page_header{
+	color: white;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+#bridge_1{
+	background-image: url('../images/bridge_1.jpg');
+}
+#planes{
+	background-image: url('../images/planes.jpg');
+}
+#creek{
+		background-image: url('../images/creek.jpg');
+}
+#point{
+		background-image: url('../images/point.jpg');
+}
+#palm_trees{
+		background-image: url('../images/palm_trees.jpg');
+}
+#vt_image{
+	background: url(../images/wirelessatvt.jpg);
+	position: relative;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 3rem;
+}
