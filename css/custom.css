@@ -1,15 +1,36 @@
 /*All pages*/
-#navbartext{
+.navbartext.trans_unit:hover {
+  	font-size: 1.5rem; 
+  	background-color: transparent;
+}
+.trans_unit{
+	background-color: transparent;
 	color: white;
 	font-weight: 30;
 	padding-right: 2rem;
-	transition: font-size 1s;	
+	padding-top: 1.5rem;
+	transition: font-size 1s;
+	outline: 0;
+
+}
+.trans_wrapper .trans_unit:hover {
+  	font-size: 1.5rem; 
+  	color: white;
+  	border-color: transparent;
+  }
+
+.trans_unit:focus{
+	box-shadow: none;
 }
 
-#navbartext:hover {
-  	font-size: 120%;
+.navbartext:focus{
+	outline: none;
+	box-shadow: none;
 }
-
+.trans_wrapper:focus{
+	outline: none;
+	box-shadow: none;
+}
 .header_picture{
 	background-size: cover; 
 	background-position: center center;
