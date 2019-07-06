@@ -1,36 +1,30 @@
 /*All pages*/
-.navbartext.trans_unit:hover {
-  	font-size: 1.5rem; 
-  	background-color: transparent;
+body{
+	overflow-x: hidden;
 }
+div.jumbotron{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
 .trans_unit{
-	background-color: transparent;
 	color: white;
 	font-weight: 30;
 	padding-right: 2rem;
 	padding-top: 1.5rem;
 	transition: font-size 1s;
-	outline: 0;
-
 }
-.trans_wrapper .trans_unit:hover {
-  	font-size: 1.5rem; 
+
+.trans_unit:hover{
+	font-size: 120%; 
   	color: white;
-  	border-color: transparent;
-  }
+}
 
 .trans_unit:focus{
+	font-size: 120%; 
 	box-shadow: none;
 }
 
-.navbartext:focus{
-	outline: none;
-	box-shadow: none;
-}
-.trans_wrapper:focus{
-	outline: none;
-	box-shadow: none;
-}
 .header_picture{
 	background-size: cover; 
 	background-position: center center;
@@ -54,14 +48,15 @@ div.jumbotron{
 	font-size: 3.0rem;
 	line-height: 1.75;
 }
-#space{
-	background-image: url('../images/space.jpg')
-}
 
+/*Header Fonts and Images*/
 #page_header{
 	color: white;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+}
+#space{
+	background-image: url('../images/space.jpg')
 }
 #bridge_1{
 	background-image: url('../images/bridge_1.jpg');
@@ -78,10 +73,54 @@ div.jumbotron{
 #palm_trees{
 		background-image: url('../images/palm_trees.jpg');
 }
+
+
+/*Research*/
 #vt_image{
 	background: url(../images/wirelessatvt.jpg);
 	position: relative;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	padding-bottom: 3rem;
+}
+
+
+/*Work Experience Images*/
+#work_uber{
+	max-width: 100%;
+	max-height: 100%;	
+	border: 2px solid black;
+	padding: 1px;
+	background-color: white; 
+}
+#work_vt{
+	max-width: 100%;
+	max-height: 100%;
+	border: 2px solid black;
+	padding: 1px;
+	background-color: white; 
+}
+#work_behrend{
+	margin-top: 3.33rem;
+	max-width: 140%;
+	max-height: auto;
+	border: 2px solid black;
+	padding: 1px;
+	background-color: white; 
+}
+#work_ei{
+	margin-top: 5rem;
+	max-width: 140%;
+	max-height: auto;
+	border: 2px solid black;
+	padding: 1px;
+	background-color: white; 
+}
+#work_na{
+	margin-top: 1.5rem;
+	max-width: 115%;
+	max-height: auto;
+	border: 2px solid black;
+	padding: 1px;
+	background-color: white; 	
 }
