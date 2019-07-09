@@ -1,3 +1,9 @@
+<!--
+	Author: 		Cam Makin
+	Creation Date: 	7/3/2019
+	Revision Date:  7/7/2019
+	Comments: Projects page for personal site
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,8 +14,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/custom.css">
-		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
 		<title>Cam Makin</title>
+		<link rel="shortcut icon" type="image/png" href="images/processor_favicon.png"/>
 	</head>
 	<body>
 		<div class="header_picture" id="bridge_1">
@@ -38,9 +46,39 @@
 			<br><br><br>
 		</div>
 		<div class="container-fluid">
-			<div class="jumbotron">
+			<div class="jumbotron" style="background-color: rgb(252,181,20)">
 				<center>
-				<p>The following was my Penn State Behrend Senior Design project -- a year long project that evaluates ability to cooperate with industry and produce a deliverable by designing and engineering an end-product</p>
+				<p>Through the past few years in school, I have undergone many projects short and long. Here is a list of some of the categories these projects fall under!</p>
+				</center>
+			</div>
+		</div>
+			<ul class="pagination justify-content-center">
+				<li class="page-item"><a href="#" class="page-link" onclick='changeProject("SeniorDesign")'>Senior Design</a></li>
+				<li class="page-item"><a href="#" class="page-link" onclick='changeProject("Microcontrollers")'>Microcontrollers</a></li>
+				<li class="page-item"><a href="#" class="page-link" onclick='changeProject("MIPS")'>MIPS</a></li>
+				<li class="page-item"><a href="#" class="page-link" onclick='changeProject("VLSI")'>VLSI</a></li>
+			</ul>
+		<div class="container-fluid">
+			<div class="jumbotron" id="SeniorDesign">
+				<center>
+				<h4>Senior Design - Implementing Cryptography on an FPGA + Microprocessor (Hardware Acceleration)</h4>
+				</center>
+				<p>Sponsored by SecureRF, I worked alongside 2 other computer engineering students with the goal of optimizing a computationally extensive function of SecureRF's crypto algorithms called. The optimization is device specific as provided by SecureRF (MicroSemi SmartFusion2 SoC FPGA). As a group, we took the provided C implementation and optimized the E-multiplication operation in hardware (FPGA + Verilog) as well as with modified Assembly routines in order to achieve the highest throughput, lowest latency, and least amount of memory usage as possible. We reached our goal by creating implementations that were significantly faster than the originally provided C implementation. To read about E-multiplication or other relevant information regarding these efforts, please head over to SecureRF's White Papers webpage.</p>
+			</div>
+			<div class="jumbotron" id="Microcontrollers">
+				<center>
+				<h4>Microcontrollers - Proficiency in Embedded Systems and C</h4>
+				</center>
+				<p></p>
+			</div>
+			<div class="jumbotron" id="MIPS">
+				<center>
+				<h4>MIPS Assembly - Assembly Language Projects with MARS IDE</h4>
+				</center>
+			</div>
+			<div class="jumbotron" id="VLSI">
+				<center>
+				<h4>VLSI - Digital Circutis and Layout Design with MAGIC VLSI software</h4>
 				</center>
 			</div>
 		</div>

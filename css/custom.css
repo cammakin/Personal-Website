@@ -1,8 +1,19 @@
+/*
+	Author: 		Cam Makin
+	Creation Date: 	7/3/2019
+	Revision Date:  7/7/2019
+	Comments: Custom CSS for my personal site on top of Bootstrap4
+*/
+
 /*All pages*/
+html {
+    overflow-y: scroll;
+}
 body{
 	overflow-x: hidden;
 }
 div.jumbotron{
+	margin-bottom: 16px;
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
@@ -86,41 +97,48 @@ div.jumbotron{
 
 
 /*Work Experience Images*/
-#work_uber{
-	max-width: 100%;
-	max-height: 100%;	
-	border: 2px solid black;
-	padding: 1px;
-	background-color: white; 
-}
-#work_vt{
-	max-width: 100%;
-	max-height: 100%;
-	border: 2px solid black;
-	padding: 1px;
-	background-color: white; 
-}
 #work_behrend{
 	margin-top: 3.33rem;
 	max-width: 140%;
-	max-height: auto;
-	border: 2px solid black;
-	padding: 1px;
-	background-color: white; 
 }
 #work_ei{
-	margin-top: 5rem;
-	max-width: 140%;
-	max-height: auto;
-	border: 2px solid black;
-	padding: 1px;
-	background-color: white; 
+	margin-top: 6.5rem;
+	max-width: 120%;
 }
 #work_na{
 	margin-top: 1.5rem;
 	max-width: 115%;
 	max-height: auto;
+	
+}
+#about_me{
+	margin-top: 0rem;
+	max-width: 100%;
+	max-height: auto;
 	border: 2px solid black;
 	padding: 1px;
-	background-color: white; 	
+	background-color: white; 
+}
+#water_polo_img{
+	color: rgb(34, 110, 147);
+	font-variant: small-caps;
+	font-weight: 350;
+}
+
+/*Projects*/
+#SeniorDesign{
+	display: none;
+	background-color: rgb(207,196,147);
+}
+#Microcontrollers{
+	display: none;
+	background-color: rgb(207,196,147);
+}
+#MIPS{
+	display: none;
+	background-color: rgb(207,196,147);
+}
+#VLSI{
+	display: none;
+	background-color: rgb(207,196,147);
 }
