@@ -1,7 +1,7 @@
 /*
 	Author: 		Cam Makin
 	Creation Date: 	7/3/2019
-	Revision Date:  7/7/2019
+	Revision Date:  7/13/2019
 	Comments: Custom CSS for my personal site on top of Bootstrap4
 */
 
@@ -17,7 +17,6 @@ div.jumbotron{
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
-
 .trans_unit{
 	color: white;
 	font-weight: 30;
@@ -25,24 +24,20 @@ div.jumbotron{
 	padding-top: 1.5rem;
 	transition: font-size 1s;
 }
-
 .trans_unit:hover{
 	font-size: 120%; 
   	color: white;
 }
-
 .trans_unit:focus{
 	font-size: 120%; 
 	box-shadow: none;
 }
-
 .header_picture{
 	background-size: cover; 
 	background-position: center center;
 	background-color: rgba(0,0,0,0.5);
 	background-blend-mode: darken;
 }
-
 div.jumbotron{
 	background-color: #D3D3D3;
 	margin-top: 1rem;
@@ -52,13 +47,17 @@ div.jumbotron{
 #fullname{
 	color: white;
 	padding-top: 4rem;
+	padding-bottom: 1.5rem;
+	font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2
 }
 #maininfo{
 	color: white;
 	font-weight: 50;
-	font-size: 3.0rem;
 	line-height: 1.75;
 }
+
 
 /*Header Fonts and Images*/
 #page_header{
@@ -76,13 +75,13 @@ div.jumbotron{
 	background-image: url('../images/planes.jpg');
 }
 #creek{
-		background-image: url('../images/creek.jpg');
+	background-image: url('../images/creek.jpg');
 }
 #point{
-		background-image: url('../images/point.jpg');
+	background-image: url('../images/point.jpg');
 }
 #palm_trees{
-		background-image: url('../images/palm_trees.jpg');
+	background-image: url('../images/palm_trees.jpg');
 }
 
 
@@ -97,6 +96,10 @@ div.jumbotron{
 
 
 /*Work Experience Images*/
+#work_vt{
+	margin-top: 2.4rem;
+	max-width: 100%;	
+}
 #work_behrend{
 	margin-top: 3.33rem;
 	max-width: 140%;
@@ -126,19 +129,35 @@ div.jumbotron{
 }
 
 /*Projects*/
+#project_btn{
+    font-size: 1.3rem;
+    background-color: lightgrey;
+    color: blue;
+}
 #SeniorDesign{
 	display: none;
 	background-color: rgb(207,196,147);
 }
 #Microcontrollers{
 	display: none;
+}
+#Microcontrollers div{
 	background-color: rgb(207,196,147);
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
 }
 #MIPS{
 	display: none;
+}
+#MIPS div{
 	background-color: rgb(207,196,147);
 }
 #VLSI{
 	display: none;
+}
+#VLSI div{
 	background-color: rgb(207,196,147);
 }
