@@ -1,9 +1,10 @@
 /*
-	Author: 		Cam Makin
+	Author: Cam Makin
 	Creation Date: 	7/7/2019
 	Revision Date:  7/10/2019
 	Comments: Custom JavaScript for personal site
-	Will close all tabs and open requested tab from button
+			  Will close all tabs and open requested tab from button
+	Repo: https://github.com/cammakin/Personal-Website
 */
 
 function changeProject(requestedProject){
@@ -11,13 +12,10 @@ function changeProject(requestedProject){
 
 	if(requested_tab.style.display == 'block')
 		return;
-	else{
-
-		var all_tabs = document.getElementsByClassName("tab");
-		for(var i = 0; i < all_tabs.length; i++){
-			all_tabs[i].style.display = 'none';
-		}
-
-		requested_tab.style.display = 'block';
+	var all_tabs = document.getElementsByClassName("tab");
+	for(var i = 0; i < all_tabs.length; i++){
+		all_tabs[i].style.display = 'none';
 	}
+	requested_tab.style.display = 'block';
+
 }// changeProject()

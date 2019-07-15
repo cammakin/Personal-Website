@@ -1,8 +1,9 @@
 /*
-	Author: 		Cam Makin
+	Author: Cam Makin
 	Creation Date: 	7/3/2019
-	Revision Date:  7/13/2019
+	Revision Date:  7/14/2019
 	Comments: Custom CSS for my personal site on top of Bootstrap4
+	Repo: https://github.com/cammakin/Personal-Website
 */
 
 /*All pages*/
@@ -85,7 +86,7 @@ div.jumbotron{
 }
 
 
-/*Research*/
+/*Education*/
 #vt_image{
 	background: url(../images/wirelessatvt.jpg);
 	position: relative;
@@ -96,6 +97,22 @@ div.jumbotron{
 
 
 /*Work Experience Images*/
+.link_image {
+    border: 3px solid transparent;
+}
+.link_image:hover{
+
+    border: 3px solid lightblue;
+}
+
+.large_header{
+	position: relative;
+	left: 10rem;
+	padding-right: 12rem;
+}
+.work_date{
+	padding-bottom: 12px;
+}
 #work_vt{
 	margin-top: 2.4rem;
 	max-width: 100%;	
@@ -114,22 +131,14 @@ div.jumbotron{
 	max-height: auto;
 	
 }
-#about_me{
-	margin-top: 0rem;
-	max-width: 100%;
-	max-height: auto;
-	border: 2px solid black;
-	padding: 1px;
-	background-color: white; 
-}
-#water_polo_img{
+.water_polo_img{
 	color: rgb(34, 110, 147);
 	font-variant: small-caps;
 	font-weight: 350;
 }
 
 /*Projects*/
-#project_btn{
+.project_btn{
     font-size: 1.3rem;
     background-color: lightgrey;
     color: blue;
