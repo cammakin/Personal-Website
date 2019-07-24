@@ -66,14 +66,14 @@ div.jumbotron{
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
-#space{
-	background-image: url('../images/space.jpg')
+#planes{
+	background-image: url('../images/planes.jpg')
 }
-#bridge_1{
+#bridge{
 	background-image: url('../images/bridge_1.jpg');
 }
-#planes{
-	background-image: url('../images/planes.jpg');
+#falls{
+	background-image: url('../images/niagara_falls.jpg');
 }
 #creek{
 	background-image: url('../images/creek.jpg');
