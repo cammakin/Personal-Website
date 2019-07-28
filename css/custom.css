@@ -66,25 +66,6 @@ div.jumbotron{
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
-#planes{
-	background-image: url('../images/planes.jpg')
-}
-#bridge{
-	background-image: url('../images/bridge_1.jpg');
-}
-#falls{
-	background-image: url('../images/niagara_falls.jpg');
-}
-#creek{
-	background-image: url('../images/creek.jpg');
-}
-#point{
-	background-image: url('../images/point.jpg');
-}
-#palm_trees{
-	background-image: url('../images/palm_trees.jpg');
-}
-
 
 /*Education*/
 #vt_image{
@@ -104,31 +85,20 @@ div.jumbotron{
     border: 3px solid lightblue;
 }
 
-.large_header{
-	position: relative;
-	left: 10rem;
-	padding-right: 12rem;
-}
 .work_date{
 	padding-bottom: 12px;
 }
 #work_vt{
 	margin-top: 2.4rem;
-	max-width: 100%;	
 }
 #work_behrend{
-	margin-top: 3.33rem;
-	max-width: 140%;
+	margin-top: 6.5rem;
 }
 #work_ei{
 	margin-top: 6.5rem;
-	max-width: 120%;
 }
 #work_na{
 	margin-top: 1.5rem;
-	max-width: 115%;
-	max-height: auto;
-	
 }
 .water_polo_img{
 	color: rgb(34, 110, 147);
@@ -168,4 +138,87 @@ div.jumbotron{
 }
 #VLSI div{
 	background-color: rgb(207,196,147);
+}
+#about_me_text{
+	position: relative;
+	left: 0rem;
+	padding-right: 0rem;
+
+}
+.show_when_mobile{
+	display: none;
+}
+
+/*For large horizontal real estate */
+@media only screen and (min-width: 1200px) {
+	#about_me_text{
+		left: 10%;
+		padding-right: 16rem;
+	}
+	.work_body{
+		position: relative;
+		left: 10rem;
+		padding-right: 16rem;"
+	}
+	.large_header{
+		position: relative;
+		left: 10rem;
+		padding-right: 12rem;
+	}
+	#work_behrend{
+		max-width: 120%;
+	}
+	#work_ei{
+		max-width: 120%;
+	}
+	#work_na{
+		max-width: 115%;
+		max-height: auto;
+	}
+}
+/*Mobile*/
+@media only screen and (max-width: 690px) {
+	#google_form{
+		padding-right: 9%;
+		width: 350px;
+		height: 1000px;
+	}
+	.work_text_mobile{
+		text-align: center;
+		padding-top: 2%;
+	}
+	.hide_when_mobile{
+		display: none;
+	}
+	.show_when_mobile{
+		display: block;
+	}
+	#page_header{
+		font-size: 2.5rem;
+	}
+	#work_location_mobile{
+		text-align: center; 
+		padding-bottom: 0%
+	}
+	#work_vt{
+		margin-top: 0rem;
+	}
+	#work_behrend{
+		margin-top: 0rem;
+	}
+	#work_ei{
+		margin-top: 0rem;
+	}
+	#work_na{
+		margin-top: 0rem;
+	}
+	#fullname{
+		font-size: 4rem;
+	    font-weight: 300;
+	    line-height: 1.2
+	}
+	#maininfo{
+		font-size: 1.5rem;
+		padding: 0.5rem;
+	}
 }
