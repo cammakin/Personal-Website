@@ -1,9 +1,8 @@
 <!--
-    Author:	Cam Makin
-   	Creation Date:  7/3/2019
-	Revision Date:  7/28/2019
+   Author:	Cameron Makin
+   Creation Date:  7/3/2019
+	Revision Date:  03/15/2021
 	Comments: Projects page for personal site
-	Repo: https://github.com/cammakin/Personal-Website
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +15,7 @@
       <link rel="stylesheet" href="css/custom.css">
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/custom.js"></script>
-      <title>Cam Makin</title>
+      <title>Cameron Makin</title>
       <link rel="shortcut icon" type="image/png" href="images/processor_favicon.png"/>
    </head>
    <body>
@@ -29,15 +28,15 @@
             <a role="button" class="btn trans_unit" href="about_me.html">About Me</a>
             <a role="button" class="btn trans_unit" href="contact.html">Contact</a>
          </div><br><br><br>
-         <h1 class="display-1" id="page_header" style="text-align:center">Undergraduate Projects</h1>
+         <h1 class="display-1" id="page_header" style="text-align:center">Side Projects</h1>
          <br><br><br>
       	</div>
       <div class="container-fluid">
          <div class="jumbotron" style="background-color: rgb(252,181,20)">
-            <p style="text-align:center">Throughout my undergraduate years at Penn State Behrend, I completed many different projects working with FPGA's, microcontrollers, Assembly language, and VLSI Layout Design.</p>
+            <p style="text-align:center">With my spare time, I like to take on small projects that teach me about different programming languages!</p>
          </div>
       </div>
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
 	      <ul class="pagination justify-content-center" style="flex-wrap: wrap;">
 	         <li class="page-item"><a href="#" class="page-link project_btn" onclick='changeProject("SeniorDesign")'>Senior Design</a></li>
 	         <li class="page-item"><a href="#" class="page-link project_btn" onclick='changeProject("Microcontrollers")'>Microcontrollers</a></li>
@@ -108,7 +107,6 @@
                         <h4 style="text-align:center">Color Sensor</h4>
                         <br>
                         <p>My final project in my embedded systems class my lab partner and I decided that we wanted to display our abilities to come up with our own project idea, purchase necessary materials, build, and demonstrate our final deliverable. Browsing online shops, we came across the Adafruit RGB Color Sensor with IR filter and White LED TCS34725. Inspired by the low cost and familiar communication protocol I2C, we decided to create an application that would sense a color and then show the same color on a display. Upon delivery, we quickly soldered the pins onto the sensor and began trying to communicate with it. Considering the very few number of pins on the device, it was simple to physically connect it to the MCU. The first true roadblock we came across was our inability to communicate with the device. We had a lot of trouble sending data or reading back. After lots of troubleshooting, we discovered that the datasheet had improperly defined the registers we needed for communication to the device. Once we found out the proper registers to be reading and writing from, creating the display was simple. Overall, the project went smoothly. As you can see, on the display there is a small circle which updates with the color sensed. It was found that using the onboard LED helped a lot with more accurate color recognition.</p>
-                        <!-- https://www.adafruit.com/product/1334?gclid=CjwKCAjwgqbpBRAREiwAF046JRa4fyW6qsfVIInciwmlvD_qpX81u0Xk9WAsykO4IuIuUgLuoeN-bxoCJcMQAvD_BwE -->
                      </div>
                   </div>
                </div>
@@ -302,6 +300,6 @@
                </div>
             </div>
          </div>
-      </div><br><br><br><br><br><br>
+      </div><br><br><br><br><br><br> -->
    </body>
 </html>

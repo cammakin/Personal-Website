@@ -1,10 +1,9 @@
 /*
-	Author: Cam Makin
-	Creation Date: 	7/7/2019
-	Revision Date:  7/10/2019
+	Author: Cameorn Makin
+	Creation Date: 	07/7/2019
+	Revision Date:  03/15/2021
 	Comments: Custom JavaScript for personal site
 			  Will close all tabs and open requested tab from button
-	Repo: https://github.com/cammakin/Personal-Website
 */
 
 function changeProject(requestedProject){
@@ -17,5 +16,4 @@ function changeProject(requestedProject){
 		all_tabs[i].style.display = 'none';
 	}
 	requested_tab.style.display = 'block';
-
-}// changeProject()
+}
