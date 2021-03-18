@@ -36,6 +36,69 @@
             <p style="text-align:center">With my spare time, I like to take on small projects that teach me about different programming languages!</p>
          </div>
       </div>
+      <div class="container-fluid">
+			<div class="jumbotron">
+				<div class="row">
+					<!-- <div class="col-md-4">
+						<a href="https://vt.edu/" target="_blank"><img src="images/vt.png" alt="Virginia Polytechnic Institute and State University" class="rounded img-fluid link_image" style="display: block;width: 50%;margin: auto;"></a>
+					</div> -->
+					<div class="col-md-12" class="large_header">
+						<h2 class="work_text_mobile">Personal Website</h2>
+						<ul>
+							<strong>I started development of this website</strong> in order to learn how to develop a simple webpage, 
+                        purchase a domain name, consider hosting options, and deliver custom content. I have thoroughly enjoyed the process of creating this website, 
+                        and it provides me with a commonplace to showcase more infomration about me that may not be fit for a resume or LinkedIn. As I got comfortable with the basic HTML/CSS for the site,
+                        I stared exporing adding media and forms. I've learned how to embed videos that provide a visual to sone of the work I have done. 
+                        
+                        More complex is the Contact Me form. Luckily, Google Forms provided a simple HTML and JS code snippet to include the form onto the page. Easy. 
+                        The new step I took was to integrate an email response system to form submissions. I was able to integrate Google Sheets with the Google Form, and then
+                        using the Form Mule plugin for Sheets, I can send emails to those who provide their email and also indicate that want a copy of my resume.
+                        
+                        The greatest part of this process is that the website is still static -- it contains no backend code to hand the form and email response. The Google products and 
+                        Form Mule plugin for Sheets allows this website to remain static (and free to host)!
+
+                        I use Google Domains and pay $12 a year for my domain name, and my webpage is hosted for free (since it is static) using Google Cloud Buckets. 
+                        I will most likely move to Github.io for hosting since I can easily commit and push changes and they are reflected, rather than reuploading files to Google Cloud.
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+      <div class="container-fluid">
+			<div class="jumbotron">
+				<div class="row">
+					<!-- <div class="col-md-4">
+						<a href="https://vt.edu/" target="_blank"><img src="images/vt.png" alt="Virginia Polytechnic Institute and State University" class="rounded img-fluid link_image" style="display: block;width: 50%;margin: auto;"></a>
+					</div> -->
+					<div class="col-md-12" class="large_header">
+						<h2 class="work_text_mobile">IoT RaspberryPi</h2>
+						<ul>
+							<strong>Curious as to how to </strong> create a device that is accessible to the internet and controls sensory hardware, I purchased a RaspberryPi (RasPi) and simply began writing code for it.
+                     I knew I wanted the RasPi to do two things:<ul>
+                        <li>I wanted the device to be able to utilize its GPIO/SPI pins to interface with sensory hardware such as a LCD</li>
+                        <li>I wanted the RasPi to host a website that would be accessible via the internet where users could interact with the attached sensory devices</li>
+                     </ul>
+                     For the GPIO/SPI connections, I decided to wire them up to a small 16x2 LCD display. Since the display requires more connections than there are GPIO pins, 
+                     I am using SPI and an SPI IO Expander to increase the number of available outputs my RasPi has effectively. 
+                     To date, I have completed a set of Python scripts that act as LCD and SPI drivers, and also create a simple function that accepts a short string as a parameter, and it prints the string on the display!
+
+                     Regarding the website, I installed the LAMP stack of products. The RasPi is running Raspbian for the OS. While I originally wanted a headless installation, 
+                     I decided against it so I can use the RasPi for casual web surfing or streaming services on a TV (while also hosting the website). 
+                     I configured Apache to listen to a the HTTP port on my network and set up the proper port forwarding rules and permissions to allow outside traffic into my local network at home.
+                     To date, a very simple "Hello World" PHP website is hosted by the RasPi. Ideally, the PHP driven website would have access to the RasPi hardware pins, 
+                     most likely in an indirect fashion with Python controlling the pins.
+                     
+                     While the website is crude at the moment, the next goal (free time permitting), is to decide on the website to hardware interface. Using Python for the website has come to mind, 
+                     however I am stubborn and would prefer to be cross-disciplined and use a different web language. In this case, I am going against rapid prototyping methodology, however this project is for 
+                     fun and learning, rather than using Python for everything! 
+
+                     Once I finish the connection between the website and the hardware, I will most likely look to replace the LCD with another microcontroller (possibly an Ardino or PIC32) where I can practice
+                     writing C for the sensors interface. This architecture would not be the most efficient, but again, this is for fun!
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
       <!-- <div class="container-fluid">
 	      <ul class="pagination justify-content-center" style="flex-wrap: wrap;">
 	         <li class="page-item"><a href="#" class="page-link project_btn" onclick='changeProject("SeniorDesign")'>Senior Design</a></li>
